@@ -4,7 +4,7 @@ const cors = require('cors');
 
 dotenv.config();
 
-const app = express(); // ✅ ეს აკლდა
+const app = express();
 const PORT = 4000;
 
 app.use(cors());
